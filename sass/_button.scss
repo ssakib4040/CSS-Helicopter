@@ -1,0 +1,37 @@
+@mixin button-base($background, $color) {
+  background: $background;
+  color: $color;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: $base-margin;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.button-red {
+  @include button-base($red, $white);
+}
+.button-green {
+  @include button-base($green, $white);
+}
+.button-blue {
+  @include button-base($blue, $white);
+}
+.button-yellow {
+  @include button-base($yellow, $white);
+}
+.button-black {
+  @include button-base($black, $white);
+}
+.button-white {
+  @include button-base($white, $black);
+}
+.button-orange {
+  @include button-base($orange, $white);
+}
+.button-brown {
+  @include button-base($brown, $white);
+}
