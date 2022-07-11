@@ -241,4 +241,16 @@ h6 {
   color: #603018;
 }
 
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-fluid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
