@@ -255,42 +255,34 @@ h6 {
 
 .border-red {
   border: 1px solid #d63031;
-  margin-bottom: 0.5rem;
 }
 
 .border-green {
   border: 1px solid #00b894;
-  margin-bottom: 0.5rem;
 }
 
 .border-blue {
   border: 1px solid #0984e3;
-  margin-bottom: 0.5rem;
 }
 
 .border-yellow {
   border: 1px solid #fdcb6e;
-  margin-bottom: 0.5rem;
 }
 
 .border-black {
   border: 1px solid #1d1d1d;
-  margin-bottom: 0.5rem;
 }
 
 .border-white {
   border: 1px solid #fff;
-  margin-bottom: 0.5rem;
 }
 
 .border-orange {
   border: 1px solid #ff9f1a;
-  margin-bottom: 0.5rem;
 }
 
 .border-brown {
   border: 1px solid #603018;
-  margin-bottom: 0.5rem;
 }
 
 .p-0 {

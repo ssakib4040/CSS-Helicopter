@@ -6,9 +6,7 @@
   "scripts": {
     "sass:normal": "sass sass/style.scss src/style.css -w",
     "sass:minified": "sass sass/style.scss src/style.min.css -w --style compressed",
-    "sass:dev": "concurrently \"yarn sass:normal\" \"yarn sass:minified\"",
-    "predeploy": "cd docs && yarn build",
-    "deploy": "gh-pages -d ./docs/dist"
+    "sass:dev": "concurrently \"yarn sass:normal\" \"yarn sass:minified\""
   },
   "devDependencies": {
     "concurrently": "^7.2.2"
