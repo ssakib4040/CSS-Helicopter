@@ -1,5 +1,6 @@
 {
   "name": "css-helicopter",
+  "description": "A small css library",
   "version": "1.0.1",
   "license": "MIT",
   "homepage": "https://github.com/ssakib4040/CSS-Helicopter/docs",
@@ -10,5 +11,8 @@
   },
   "devDependencies": {
     "concurrently": "^7.2.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
