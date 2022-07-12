@@ -2,10 +2,13 @@
   "name": "css-helicopter",
   "version": "1.0.0",
   "license": "MIT",
+  "homepage": "https://github.com/ssakib4040/CSS-Helicopter/docs",
   "scripts": {
     "sass:normal": "sass sass/style.scss src/style.css -w",
     "sass:minified": "sass sass/style.scss src/style.min.css -w --style compressed",
-    "sass:dev": "concurrently \"yarn sass:normal\" \"yarn sass:minified\""
+    "sass:dev": "concurrently \"yarn sass:normal\" \"yarn sass:minified\"",
+    "predeploy": "cd docs && yarn build",
+    "deploy": "gh-pages -d ./docs/dist"
   },
   "devDependencies": {
     "concurrently": "^7.2.2"
