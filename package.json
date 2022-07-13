@@ -5,12 +5,14 @@
   "license": "MIT",
   "homepage": "https://github.com/ssakib4040/CSS-Helicopter/docs",
   "scripts": {
+    "live-server": "cd docs && ../node_modules/.bin/live-server --no-browser",
     "sass:normal": "sass sass/style.scss src/style.css -w",
     "sass:minified": "sass sass/style.scss src/style.min.css -w --style compressed",
-    "sass:dev": "concurrently \"yarn sass:normal\" \"yarn sass:minified\""
+    "sass:dev": "concurrently \"yarn sass:normal\" \"yarn sass:minified\" \"yarn live-server\""
   },
   "devDependencies": {
-    "concurrently": "^7.2.2"
+    "concurrently": "^7.2.2",
+    "live-server": "^1.2.2"
   },
   "dependencies": {
     "bootstrap": "^5.1.3"
