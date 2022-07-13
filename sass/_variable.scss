@@ -4,20 +4,18 @@ $green: #00b894;
 $yellow: #f1c40f;
 $purple: #8c7ae6;
 $orange: #fa8231;
-$brown: #603018;
 $black: #2f3640;
 $white: #f5f6fa;
 
 $colors: (
-  red: $red,
-  blue: $blue,
-  green: $green,
-  yellow: $yellow,
-  purple: $purple,
-  orange: $orange,
-  brown: $brown,
-  black: $black,
-  white: $white,
+  "red": $red,
+  "blue": $blue,
+  "green": $green,
+  "yellow": $yellow,
+  "purple": $purple,
+  "orange": $orange,
+  "black": $black,
+  "white": $white,
 );
 
 $base-padding: 1rem;

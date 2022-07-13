@@ -1,28 +1,5 @@
-@mixin border-base($color) {
-  border: 1px solid $color;
-}
-
-.border-red {
-  @include border-base($red);
-}
-.border-green {
-  @include border-base($green);
-}
-.border-blue {
-  @include border-base($blue);
-}
-.border-yellow {
-  @include border-base($yellow);
-}
-.border-black {
-  @include border-base($black);
-}
-.border-white {
-  @include border-base($white);
-}
-.border-orange {
-  @include border-base($orange);
-}
-.border-brown {
-  @include border-base($brown);
+@each $key, $value in $colors {
+  .border-#{$key} {
+    border: 1px solid $value;
+  }
 }

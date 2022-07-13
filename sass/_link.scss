@@ -2,27 +2,8 @@
   color: $color;
 }
 
-.link-red {
-  @include link-base($red);
-}
-.link-green {
-  @include link-base($green);
-}
-.link-blue {
-  @include link-base($blue);
-}
-.link-yellow {
-  @include link-base($yellow);
-}
-.link-black {
-  color: $black;
-}
-.link-white {
-  @include link-base($white);
-}
-.link-orange {
-  @include link-base($orange);
-}
-.link-brown {
-  @include link-base($brown);
+@each $key, $value in $colors {
+  .link-#{$key} {
+    @include link-base($value);
+  }
 }

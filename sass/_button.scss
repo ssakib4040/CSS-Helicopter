@@ -11,27 +11,12 @@
   }
 }
 
-.button-red {
-  @include button-base($red, $white);
-}
-.button-green {
-  @include button-base($green, $white);
-}
-.button-blue {
-  @include button-base($blue, $white);
-}
-.button-yellow {
-  @include button-base($yellow, $white);
-}
-.button-black {
-  @include button-base($black, $white);
-}
-.button-white {
-  @include button-base($white, $black);
-}
-.button-orange {
-  @include button-base($orange, $white);
-}
-.button-brown {
-  @include button-base($brown, $white);
+@each $colorName, $colorCode in $colors {
+  .button-#{$colorName} {
+    @include button-base($colorCode, $white);
+    @if ($colorName == "white") {
+      @include button-base($colorCode, $black);
+    }
+    border: 1px solid $colorCode;
+  }
 }
