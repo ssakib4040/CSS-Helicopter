@@ -5,7 +5,7 @@
   "license": "MIT",
   "homepage": "https://github.com/ssakib4040/CSS-Helicopter/docs",
   "scripts": {
-    "live-server": "cd docs && ../node_modules/.bin/live-server --no-browser",
+    "live-server": "./node_modules/.bin/live-server --no-browser -q",
     "sass:normal": "sass sass/style.scss src/style.css -w",
     "sass:minified": "sass sass/style.scss src/style.min.css -w --style compressed",
     "sass:dev": "concurrently \"yarn sass:normal\" \"yarn sass:minified\" \"yarn live-server\""

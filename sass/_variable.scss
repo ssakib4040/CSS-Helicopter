@@ -1,28 +1,38 @@
 $red: #d63031;
-$green: #00b894;
 $blue: #0984e3;
-$yellow: #fdcb6e;
-$black: #1d1d1d;
-$white: #fff;
-$orange: #ff9f1a;
+$green: #00b894;
+$yellow: #f1c40f;
+$purple: #8c7ae6;
+$orange: #fa8231;
 $brown: #603018;
+$black: #2f3640;
+$white: #f5f6fa;
 
-$gray-1: #dfe6e9;
-$gray-2: #b2bec3;
-$gray-3: #636e72;
-$gray-4: #2d3436;
+$colors: (
+  red: $red,
+  blue: $blue,
+  green: $green,
+  yellow: $yellow,
+  purple: $purple,
+  orange: $orange,
+  brown: $brown,
+  black: $black,
+  white: $white,
+);
 
-$base-padding: 0.5rem;
-$base-margin: 0.5rem;
+$base-padding: 1rem;
+$base-margin: 1rem;
 
-$padding-1: 0.5rem;
-$padding-2: 1rem;
-$padding-3: 1.5rem;
-$padding-4: 2rem;
-$padding-5: 2.5rem;
+$padding-1: $base-padding * 0.5;
+$padding-2: $base-padding * 1;
+$padding-3: $base-padding * 1.5;
+$padding-4: $base-padding * 2;
+$padding-5: $base-padding * 2.5;
+$padding-6: $base-padding * 3;
 
-$margin-1: 0.5rem;
-$margin-2: 1rem;
-$margin-3: 1.5rem;
-$margin-4: 2rem;
-$margin-5: 2.5rem;
+$margin-1: $base-margin * 0.5;
+$margin-2: $base-margin * 1;
+$margin-3: $base-margin * 1.5;
+$margin-4: $base-margin * 2;
+$margin-5: $base-margin * 2.5;
+$margin-6: $base-margin * 3;
