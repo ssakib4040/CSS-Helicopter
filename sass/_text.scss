@@ -3,3 +3,13 @@
     color: $value;
   }
 }
+
+@for $i from 1 through 10 {
+  .text-gray-#{$i} {
+    color: rgba($black, $i * 0.1);
+  }
+
+  .bg-gray-#{$i} {
+    background-color: rgba($black, $i * 0.1);
+  }
+}
